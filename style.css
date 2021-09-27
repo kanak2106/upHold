@@ -1,0 +1,52 @@
+body
+{
+    background-image: linear-gradient(to right,  rgb(0, 128, 128), rgb(0, 153, 153) , rgb(0, 179, 179) , rgb(0, 204, 204) ,rgb(0, 230, 230), rgb(0, 255, 255),rgb(0, 230, 230) ,rgb(0, 204, 204), rgb(0, 179, 179), rgb(0, 153, 153), rgb(0, 128, 128));
+
+
+}
+
+ 
+
+ul
+{
+    list-style-type: none;
+    margin-top: 0px;
+    display: flex;
+    float: right;
+    padding: 0px;
+    background:rgb(6, 87, 76) ;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+img
+{
+    width: 120px;
+    height: 60px;
+}
+
+
+li{
+   float:  left;
+}
+li a{
+    display: block;
+    align-items: center;
+    padding: 20px 30px;
+    color:white ;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:rgb(28, 170, 127);
+}
+
+.collage img
+{
+    width: 500px;
+    height: 500px;
+    margin-top: 5px;
+    margin-right: 50px;
+    float: right;
+}
